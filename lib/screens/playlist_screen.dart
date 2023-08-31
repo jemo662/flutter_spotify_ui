@@ -74,14 +74,14 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
         actions: [
           TextButton.icon(
             style: TextButton.styleFrom(
-              primary: Theme.of(context).iconTheme.color,
+              foregroundColor: Theme.of(context).iconTheme.color,
             ),
             onPressed: () {},
             icon: const Icon(
               Icons.account_circle_outlined,
               size: 30.0,
             ),
-            label: const Text('Marcus Ng'),
+            label: const Text('Kagema Njoroge'),
           ),
           const SizedBox(width: 8.0),
           IconButton(
