@@ -45,14 +45,14 @@ class _TrackInfo extends StatelessWidget {
           children: [
             Text(
               selected.title,
-              style: Theme.of(context).textTheme.bodyText1,
+              style: Theme.of(context).textTheme.bodyLarge,
             ),
             const SizedBox(height: 4.0),
             Text(
               selected.artist,
               style: Theme.of(context)
                   .textTheme
-                  .subtitle1!
+                  .titleMedium!
                   .copyWith(color: Colors.grey[300], fontSize: 12.0),
             )
           ],
