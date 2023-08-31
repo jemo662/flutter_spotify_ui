@@ -144,7 +144,7 @@ class __LibraryPlaylistsState extends State<_LibraryPlaylists> {
                   ),
                   child: Text(
                     'PLAYLISTS',
-                    style: Theme.of(context).textTheme.headline4,
+                    style: Theme.of(context).textTheme.headlineMedium,
                     overflow: TextOverflow.ellipsis,
                   ),
                 ),
@@ -153,7 +153,7 @@ class __LibraryPlaylistsState extends State<_LibraryPlaylists> {
                           dense: true,
                           title: Text(
                             e,
-                            style: Theme.of(context).textTheme.bodyText2,
+                            style: Theme.of(context).textTheme.bodyMedium,
                             overflow: TextOverflow.ellipsis,
                           ),
                           onTap: () {},

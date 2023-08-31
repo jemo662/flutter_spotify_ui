@@ -110,7 +110,7 @@ class _PlayerControls extends StatelessWidget {
         const SizedBox(height: 4.0),
         Row(
           children: [
-            Text('0:00', style: Theme.of(context).textTheme.caption),
+            Text('0:00', style: Theme.of(context).textTheme.bodySmall),
             const SizedBox(width: 8.0),
             Container(
               height: 5.0,
@@ -123,7 +123,7 @@ class _PlayerControls extends StatelessWidget {
             const SizedBox(width: 8.0),
             Text(
               selected?.duration ?? '0:00',
-              style: Theme.of(context).textTheme.caption,
+              style: Theme.of(context).textTheme.bodySmall,
             ),
           ],
         ),
